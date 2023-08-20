@@ -41,8 +41,6 @@ subprojects {
         testImplementation 'io.mockk:mockk:1.12.0'
     }
 
-    compileKotlin.destinationDir = compileJava.destinationDir
-
     compileKotlin {
         kotlinOptions.jvmTarget = "1.8"
     }
